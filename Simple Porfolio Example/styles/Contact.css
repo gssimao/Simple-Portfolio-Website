@@ -1,0 +1,13 @@
+
+section{float: left; width: 30%; padding-left: 10%; padding-top: 20px;}
+section h2{text-align: center;}
+
+aside.FAQ{width: 30%; float: left; padding-left: 5%; padding-top: 20px;}
+aside.FAQ ul{list-style: none;}
+aside.FAQ ul li {padding-bottom: 20px; text-align: left; font-size: 1em;}
+aside.FAQ h3{width: 60%;color: #c391c0; text-align: left; padding-top: 10px;}
+aside.FAQ ul li{color: #70b4a1; text-align: right; border-bottom: 1px #c391c0 solid; font-size: 1.2em;}
+aside.FAQ h2{margin: auto; text-align: center; border-bottom: 2px solid #c391c0; margin-top: 20px;color: rgb(112, 180, 161);}
+aside.FAQ{width: 40%}
+
+article{clear: both}

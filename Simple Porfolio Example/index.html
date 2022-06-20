@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gabe Simao | Portfolio</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+
+
+</head>
+<body>
+    <header>
+        <h1>Gabriel Salles Simao</h1>
+        <h1>Portfolio</h1>
+    </header>
+
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li> <a href="#" class="current">Home</a></li>
+            <li> <a href="Experience/experience.html">Experience</a></li>
+            <li> <a href="Work/Work.html">Work</a></li>
+            <li> <a href="Contact/Contact.html">Contact / FAQ</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>Hi, my name is</h1>
+            <h2 id="first">Gabe Simao</h2>
+            <h2>I program Video Games</h2>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                Vestibulum tortor quam,
+                feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+                Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        </section>
+        <div class="mainPhotos">
+            <ul>
+                <li><a href="Work/Work.html"><img src="images/CodeMainPage.png" width="90%" alt="C# code">Previous work</a></li>
+                <li><a href="Experience/experience.html"><img src="images/Model.jpeg"width="90%"alt="3d Model">Experience in the field</a></li>
+                <li><a href="Contact/Contact.html"><img src="images/example.jpg"width="90%" alt="Example work">Contact</a></li>
+            </ul>
+        </div>
+        <article>
+            <h1>Get in Touch</h1>
+            <p>Send me an email about your project and ideas.<br>I'll do my best to answer as soon as possible.</p>
+
+            <button type="button" class="button"> <a href="mailto: gsallessimao@trojans.dsu.edu"> Email Gabe</a> </button>
+            <button type="button" class="button"> <a href="GameForm/GameForm.html"> Share your Game Ideas</a> </button>
+        </article>
+        <footer>
+            <p>2019 Gabriel Salles Simao</p>
+            <p>Made for CIS 275</p>
+        </footer>
+    </main>
+</body>
+</html>

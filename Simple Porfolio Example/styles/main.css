@@ -1,0 +1,194 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Dubai Light";
+}
+
+* a:link
+{
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+}
+#mobile_menu { display: none; }
+
+html{background-color: black;}
+body
+{
+    padding: 0px;
+    max-width: 100%;
+    min-width: 300px;
+    border: 3px dot-dot-dash rgba(163, 54, 156, 0.36);
+    background-color: black;
+    margin: 0px auto;
+    font-family: sans-serif;
+}
+
+header /*Header Style*/
+    {
+        background-image: linear-gradient(70deg, #343434 , black  50%, #343434);
+        background-image: -webkit-linear-gradient(70deg, #343434 , black  50%, #343434);
+        background-image: -moz-linear-gradient(70deg, #343434 , black  50%, #343434);
+        background-image: -o-linear-gradient(70deg, #343434 , black  50%, #343434);
+    background-color: black;
+    height: 100px;
+    }
+    header h1
+    {
+        text-align: center;
+        font-size: 110%;
+        color: whitesmoke;
+        margin: 0px;
+        padding: 0px 0px 0px 0px;
+        font-family: "Dubai";
+    }
+    header h1:first-child
+    {
+         text-align: center;
+         font-size: 100%;
+         color: whitesmoke;
+         margin: 0px;
+         padding: 30px 0px 0px 0px;
+        font-family: "Dubai Light";
+    }
+
+    #nav_menu{margin:0px; padding: 0px;background-color: black;}
+
+    #nav_menu ul
+    {
+        margin: 0px;
+        list-style: none;
+        position: relative;
+        display: block;
+
+
+    }
+    #nav_menu ul li {width: 22%; height: 46px; float: left; border-top: rgb(115, 119, 121) solid 3px; margin-right: 3%;  margin-leftt: 3%;}
+
+    #nav_menu ul li a:link{color: #a3369c; text-align: left; height: 36px; padding-top: 10px; padding-left: 15px;}
+    #nav_menu ul ul {display: none; position: absolute; top: 100%; padding: 0px;}
+    #nav_menu ul li a {height: 46px; color: #c391c0;  text-decoration: none; display: block; text-align: center; height: 46px}
+    #nav_menu > ul::after{}
+
+    #nav_menu ul li:hover, #nav_menu ul li:focus{border-top-color: #a3369c}
+    #nav_menu ul li a.current{border-top-color: #a3369c ;color: #70b4a1; text-align: left; padding-top: 4px ; padding-left: 10%; padding-bottom: 6px; font-size: 1.3em;}
+
+    main section h2{text-align: left; font-size: 1.7em; color: whitesmoke; margin: 0px;}
+
+    #first {font-size: 3em; margin: 0px; color: #c391c0; text-align: left; margin: 0; height: 60px;}
+
+    main h1{font-size: 1.1em;, margin: 0px; color: whitesmoke; text-align: left; margin: 0px; padding-top: 10px;}
+
+    main
+    {
+        clear: both;
+        text-align: center;
+        width: 100%;
+        background-color: black;
+        color: whitesmoke;
+    }
+
+    main ul { line-height:150%; margin: 10px 0px 0px 10px; padding: 0px;}
+
+    .button {
+        background: rgb(112, 180, 161);
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .button a{color: #343434; text-decoration: none;}
+    .button a:hover{color: #101010}
+
+    a:hover, a:focus { color: #d17300}
+
+    section
+    {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    section p {text-align: left}
+    .mainPhotos{margin: auto; width: 100%; height: 200px; padding-left: 4%}
+    .mainPhotos ul{width: 100%; list-style: none;}
+    .mainPhotos ul li{width: 30%; float: left;}
+    .mainPhotos ul li a{color: rgb(195, 145, 192) ; text-decoration: none; font-size: 120%}
+    .mainPhotos ul li a:hover{color: rgb(209, 115, 0); text-decoration: none;}
+
+    article h1{clear: both;font-size: 1.5em;, margin: 0px; color: whitesmoke; text-align: center; margin: 0px; padding-top: 10px; height: 40px;}
+    article{padding-top: 30px; padding-bottom: 10px; font-size: 100%; width: 100%; margin: auto; }
+    footer
+    {
+        clear:both;
+        color: whitesmoke;
+        padding: 10px;
+        box-shadow: 5px 15px 35px #222222;
+        margin-top: 30px;
+        background-image: linear-gradient(70deg, #343434 , black  50%, #343434);
+        background-image: -webkit-linear-gradient(70deg, #343434 , black  50%, #343434);
+        background-image: -moz-linear-gradient(70deg, #343434 , black  50%, #343434);
+        background-image: -o-linear-gradient(70deg, #343434 , black  50%, #343434);
+        background-color: black;
+        font-size: 75%;
+        text-align: center;
+        border-top: 4px solid #a3369c;
+    }
+
+@media only screen and (max-width:959px)
+{
+    main{font-size: 90%}
+    body{box-shadow: none;}
+    html{background-image: none;}
+    section{padding-left: .5em ;padding-right: 3em;}
+
+}
+@media only screen and (max-width:767px)
+{
+    #nav_menu{margin:0px; padding: 0px;}
+
+    #nav_menu ul
+    {
+        margin: 0px;
+        background-color: darkgray;
+        list-style: none;
+        position: relative;
+        display: block;
+
+    }
+    #nav_menu ul li {width: 100%; height: 46px;}
+
+    #nav_menu ul li a:link{color: #c391c0; text-align: center; height: 36px; padding-top: 10px; padding-left: 15px;}
+    #nav_menu ul ul {display: none; position: absolute; top: 100%; padding: 0px;}
+    #nav_menu ul li a {height: 46px; color: #c391c0;  text-decoration: none; display: block; text-align: center; height: 46px}
+    #nav_menu > ul::after{}
+    #nav_menu ul li a.current{border-top-color: #a3369c ;color: #70b4a1; padding-top: 4px; padding-bottom: 6px; font-size: 1em;}
+    #nav_menu ul li:hover, #nav_menu ul li:focus{background-color: rgba(112, 180, 161, 0.39);}
+
+    .mainPhotos ul li a{font-size: 90%}
+
+    main{font-size: 90%}
+    section img {width: 50%;}
+    section{width: 60%;padding-right: 10%;}
+
+}
+
+@media only screen and (max-width:479px)
+{
+     /*display the mobile menu*/
+    #mobile_menu { display: block; }
+    #nav_menu {display: none;}
+    header h2, h3{font-size: 80%}
+    aside{float:none; margin: auto; clear: both; padding-bottom: 0.5em}
+    section{width: 90%; ;margin: auto; float: left; padding: 2%;}
+    section h1:first-child{font-size: 1.5em}
+    section img {width: 30%;}
+    #nav_menu {display: none;}
+    article h1{clear: both ;font-size: 1em;, margin-top: 10px; color: whitesmoke; text-align: center; margin: 0px; padding-top: 10px; height: 40px;}
+    article{padding-top: 30px; padding-bottom: 10px; font-size: 100%; width: 100%; margin: auto; }
+
+}

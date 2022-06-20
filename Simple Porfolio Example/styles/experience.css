@@ -1,0 +1,21 @@
+
+    /*HERE HERE HERE HERE HERE HERE HERE*/
+    figure{padding-bottom: 50px;}
+    figcaption{font-weight: bold; text-align: center; font-size: 150%; margin-bottom: 10px;}
+    table{width: 75%; margin: 0px auto;border-collapse: collapse; }
+    tbody tr {height: 10px; border-top: rgb(115, 119, 121) solid 2px;}
+    thead th{color: gray; text-align: left;}
+    tbody th{vertical-align: top; text-align: left;}
+    tbody td{text-align: left;}
+    tbody td a{color: black; }
+    tbody th, tbody td {padding-top: 5px; padding-bottom: 5px;}
+    /*HERE HERE HERE HERE HERE HERE HERE*/
+    section{text-align: left; float: left; padding-left: 5%; width: 30%; padding-top: 0px; }
+    aside {text-align: left; padding-left: 80%;}
+    article{clear: both;}
+
+    @media only screen and (max-width:479px)
+    {
+        section{text-align: left; padding-left: 5%; width: 30%; padding-top: 10px; }
+        aside {text-align: left; padding-left: 5%;padding-top: 10px;}
+    }
